@@ -1,0 +1,17 @@
+name: Stats
+main: com.github.castlecorp.statsPlugin.StatsPlugin
+version: 1.0
+author: CastleCorp
+depend: [Vault]
+softdepend: [iConomy]
+commands:
+   stats:
+      description: Displays your player stats.
+      usage: /stats
+      permission: stats.*
+      aliases: [stat]
+permissions:
+   stats.*:
+     description: Gives access to all Stats permissions
+     children:
+       stats.view: true
