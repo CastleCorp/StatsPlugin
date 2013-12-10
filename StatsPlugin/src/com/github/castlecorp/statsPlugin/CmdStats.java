@@ -44,8 +44,8 @@ public class CmdStats implements CommandExecutor {
 
 
 			// message sender their stats
-			String deathCount = deaths.getDeathCount(sender);
-			String killCount = kills.getKillCount(sender);
+			String deathCount = deaths.getDeathCount(player);
+			String killCount = kills.getKillCount(player);
 
 
 			plugin.Msg(sender, balance);
