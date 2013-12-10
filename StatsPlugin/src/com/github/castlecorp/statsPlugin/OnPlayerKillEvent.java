@@ -54,8 +54,8 @@ public class OnPlayerKillEvent implements Listener {
 
 	}
 
-	public String getKillCount(CommandSender sender) {
-		return ""+map.get(sender);
+	public String getKillCount(Player player) {
+		return ""+map.get(player);
 	}
 
 
